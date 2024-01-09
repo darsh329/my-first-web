@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>REGISTRATION FORM</h2>
+    <!--to run the form we need backend to run it for this we use "<form action= "name of file" "-->
+    <form >
+        <!--<input type="test" placeholder="enter name"-->
+        <input type="text" placeholder="type here">  
+        <br><br>
+        <input type="password" placeholder="password">
+        <br> <hr>
+        <h3> select your class</h3>
+        <label for="101">
+        <input type="radio" value="class XI" name="class" id="101">class XI
+        </label>
+        <br><!--lable is nothing but also like selecting option even when user click on the text-->
+        <label for="102">
+        <input type="radio" value="class XII" name="class" id="102">class XII</label>
+        <br> <hr>
+        <h3>select your fav. subject</h3>
+        <!--checkboxes is also a type which allow to user to select multiple option-->
+        <label for="103">
+             <input type="checkbox" value="math" name="subject" id="103">math   </label> <br> 
+             <label for="104">
+                <input type="checkbox" value="phy" name="subject" id="104"> phy</label><br>
+                <label for="105">
+             <input type="checkbox" value="chem" name="subject" id="105">chem</label><br>
+             <label for="106">
+             <input type="checkbox" value="english" name="subject" id="106">english</label><br>
+             <label for="107">
+             <input type="checkbox" value="PHE" name="subject" id="107">PHE</label><br>
+             <label for="108">
+             <input type="checkbox" value="CS" name="subject" id="108">CS
+       
+       
+            </label><br>
+            <hr>
+            select your city
+        <select name="city">
+            <option value="delhi">delhi</option>
+<option value="khair">khair</option>
+<option value="aligarh">aligarh</option>
+<option value="gomat"><gomat/option>
+<option value="block colony">block colony</option>
+        </select><br>
+ <hr>   <textarea name="feedback" id="101" placeholder="please give your feedback" rows="10"></textarea>
+<input type="submit" value="submit" >  
+  </form>
+  <footer></footer>
+</body>
+</html>
